@@ -1,0 +1,52 @@
+h2,
+h3 {
+  margin: 1px 0;
+  padding: 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  height: 60px;
+  box-shadow: 0px 0px 5px 1px #adadad78;
+}
+.search-container input[type="text"] {
+  padding: 10px;
+  outline: none;
+}
+.add-btn {
+  padding: 10px 40px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.player-card {
+  width: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 1px #adadad78;
+}
+
+.player-image {
+  width: 100px;
+  height: 100px;
+  background: #e7e7e7;
+  margin: 5px auto;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.player-details {
+  border-top: 2px solid #cccc;
+  height: auto;
+  width: 80%;
+  margin: auto;
+  padding: 5px 0;
+}
